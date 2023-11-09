@@ -35,8 +35,8 @@ margin: 20px;
 }
 
 a{
-    color: white;
-    text-decoration: none;
+color: white;
+text-decoration: none;
 }
 
 a:hover{
@@ -152,7 +152,7 @@ cursor: pointer;
 display: flex;
 justify-content: center;
 width: 95%;
-height: 50px;
+height: 40px;
 align-items: center;
 background: #7a57fa;
 color: white;

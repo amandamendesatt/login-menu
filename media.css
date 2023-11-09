@@ -55,8 +55,8 @@ justify-content: center;
 #btn input {
 display: flex;
 justify-content: center;
-width: 95%;
-height: 40px;
+width: 85%;
+height: 60px;
 align-items: center;
 margin-top: 5px;
 margin-bottom: 15px;
@@ -79,5 +79,45 @@ display: none;
 .formulario{
 border-radius: 10px;
 width: 50%;
+height: 400px;
+}
+.caixa-texto input {
+width: 85%;
+}
+}
+
+@media screen and (max-width:580px){
+.formulario{
+width: 60%;
+height: 300px;
+}
+form {
+height: 280px;
+}
+.titulo-login{
+margin-bottom: 5px;
+}
+
+form>h1{
+font-size: 1px;
+}
+.caixa-texto{
+height: 200px;
+}
+.caixa-texto input {
+height: 30px;
+margin-bottom: 15px ;
+}
+#btn{
+height: 50px;
+margin-bottom: 5px;
+}
+#btn input {
+margin-bottom: 5px;
+font-size: 10px;
+}
+p {
+font-size: 8px;
+margin-top: 2px;
 }
 }
