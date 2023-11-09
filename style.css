@@ -3,8 +3,8 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: sans-serif;
-background: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-
+background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #cdc3fc 100%);
 color: white;
 }
 
@@ -35,35 +35,35 @@ a{
 }
 
 a:hover{
-color: blueviolet;
+color: #6137f7;
 transition: 0.3s all;
 }
 
 #login-btn{
-border: 2px solid blueviolet;
+border: 2px solid #7a57fa;
 padding: 10px;
 border-radius: 15px;
 }
 
 #login-btn:hover{
-background-color: blueviolet;
+background-color: #7a57fa;
 color: white;
 }
 
 .container {
 display: flex;
 width: 100%;
-height: 100%;
+height: 500px;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-margin-top: 5%;
-margin-bottom: 5%;
+margin-top: 3%;
+margin-bottom: 3%;
 }
 
 .imagem {
-background: rgba(206, 179, 252, 0.767);
-width: 300px;
+background: #c8beff;
+width: 20%;
 height: 450px;
 display: flex;
 justify-content: center;
@@ -90,47 +90,74 @@ justify-content: center;
 align-items: center;
 box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.316);
 }
-
-form>h1{
+form {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+width: 100%;
+height: 450px;
+}
+.titulo-login{
+width: 80%;
+height: 50px;
+justify-content: space-around;
+}
+form h1{
+display: flex;
 color: rgb(83, 78, 78);
 font-weight: 700;
+padding-right: 50px;
+}
+.caixa-texto{
+width: 80%;
+height: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 margin-top: 10px;
 }
-
 .caixa-texto input {
 background: rgba(0, 0, 0, 0.075);
 display: flex;
 justify-content: center;
 align-items: center;
-width: 280px;
+width: 90%;
 height: 48px;
 margin-top: 25px;
 border-radius: 15px;
-border: 1px solid rgba(0, 0, 0, 0.014);
+border: 1px solid rgba(0, 0, 0, 0.04);
 font-size: 15px;
 padding-left: 10px;
+}
+#btn {
+width: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 #btn input {
 cursor: pointer;
 display: flex;
 justify-content: center;
-width: 294px;
+width: 95%;
 height: 50px;
 align-items: center;
-background: blueviolet;
+background: #7a57fa;
 color: white;
 font-size: 16px;
 font-weight: 700;
-border: 2px solid blueviolet;
+border: 2px solid #7a57fa;
 padding-left: 10px;
 border-radius: 15px;
-margin-top: 25px;
+margin-top: 15px;
 }
 
 #btn>input:hover {
 background: none;
-color: blueviolet;
+color: #7a57fa;
 transition: 0.4s all;
 }
 
@@ -146,7 +173,7 @@ font-size: 15px;
 }
 
 p a {
-color: blueviolet;
+color: #6137f7;
 text-decoration: none;
 font-weight: 700;
 }

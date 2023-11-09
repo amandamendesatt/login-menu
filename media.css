@@ -1,0 +1,61 @@
+@media screen and (max-width: 1120px){
+.imagem{
+display: flex;
+width: 20%;
+justify-content: center;
+align-items: center;
+}
+img{
+width: 95%;
+}
+.formulario{
+width: 30%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+form {
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+}
+.titulo-login{
+justify-content: space-around;
+}
+
+.caixa-texto{
+width: 80%;
+height: 230px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.caixa-texto input {
+width: 80%;
+height: 40px;
+}
+#btn {
+width: 80%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#btn input {
+display: flex;
+justify-content: center;
+width: 80%;
+height: 40px;
+align-items: center;
+padding-left: 15px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+p{
+font-size: 12px;
+}
+}
