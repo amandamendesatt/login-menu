@@ -34,12 +34,12 @@ display: inline-block;
 margin: 20px;
 }
 
-a {
+ul a {
 color: white;
 text-decoration: none;
 }
 
-a:hover {
+ul a :hover {
 color: #6137f7;
 transition: 0.3s all;
 }
