@@ -34,12 +34,12 @@ display: inline-block;
 margin: 20px;
 }
 
-a{
+a {
 color: white;
 text-decoration: none;
 }
 
-a:hover{
+a:hover {
 color: #6137f7;
 transition: 0.3s all;
 }
@@ -127,12 +127,14 @@ margin-bottom: 5px;
 }
 .caixa-texto input {
 background: rgba(0, 0, 0, 0.1);
+width: 90%;
+padding: 15px;
+margin: 14px;
+color: black;
 display: flex;
 justify-content: center;
 align-items: center;
-width: 95%;
-height: 50px;
-margin: 12px;
+
 border-radius: 15px;
 border: 1px solid rgba(0, 0, 0, 0.04);
 font-size: 15px;
@@ -149,10 +151,10 @@ flex-direction: column;
 
 #btn input {
 cursor: pointer;
+width: 90%;
+padding: 15px;
 display: flex;
 justify-content: center;
-width: 95%;
-height: 40px;
 align-items: center;
 background: #7a57fa;
 color: white;
@@ -160,8 +162,7 @@ font-size: 16px;
 font-weight: 700;
 border: 2px solid #7a57fa;
 border-radius: 15px;
-margin-top: 10px;
-margin-bottom: 10px;
+margin-top: 2px;
 }
 
 #btn>input:hover {
@@ -181,7 +182,7 @@ justify-content: center;
 align-items: center;
 text-align: center;
 font-size: 15px;
-margin-bottom: 10px;
+margin: 10px;
 
 }
 
