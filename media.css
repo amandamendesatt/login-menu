@@ -65,7 +65,33 @@ font-size: 12px;
 }
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 850px) {
+#mobile-menu{
+display: block;
+}
+
+#nav-list {
+display: none;
+position: absolute;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+top: 60px;
+right: 0px;
+background: #7a57fa;
+height: calc(100vh - 60px);
+z-index: 1000;
+pointer-events: none;
+}
+
+#nav.active #nav-list{
+/*display: none;*/
+display: flex;
+pointer-events: all;
+}
+
+
 .imagem{
 display: none;
 }

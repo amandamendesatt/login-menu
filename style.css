@@ -11,22 +11,34 @@ height: 100vh;
 background: linear-gradient(62deg, #8EC5FC 0%, #cdc3fc 100%);
 }
 
-nav{
+nav {
 display: flex;
 height: 100px;
 justify-content: space-between;
 align-items: center;
-padding: 16px;
+height: 10vh;
 padding-left: 20px;
 padding-right: 20px;
+background: #7a57fa;
 }
 
 #logo{
-flex-direction: column;
-line-height: 8px;
-font-size: 22px;
+font-size: 30px;
 font-weight: 700;
 align-items: center;
+text-decoration: none;
+}
+
+#mobile-menu div {
+width: 32px;
+height: 3px;
+background: white;
+margin: 8px;
+}
+
+#mobile-menu {
+display: none;
+cursor: pointer;
 }
 
 li{
@@ -44,14 +56,14 @@ color: #6137f7;
 transition: 0.3s all;
 }
 
-#login-btn{
+#login-btn {
 border: 2px solid #7a57fa;
 padding: 10px;
 border-radius: 15px;
 }
 
 #login-btn:hover{
-background-color: #7a57fa;
+background: #7a57fa;
 color: white;
 }
 
@@ -114,7 +126,7 @@ form h1{
 display: flex;
 color: rgb(83, 78, 78);
 font-weight: 700;
-padding-left: 8px;
+padding-left: 15px;
 }
 .caixa-texto{
 width: 80%;
