@@ -1,4 +1,4 @@
-@media screen and (max-width: 1015px){
+@media screen and (max-width: 1000px){
 .imagem{
 display: flex;
 width: 20%;
@@ -64,6 +64,23 @@ p{
 font-size: 12px;
 }
 }
+@media screen and (max-width:950px) {
+.imagem{
+display: none;
+}
+
+img {
+display: none;
+}
+.formulario{
+border-radius: 20px;
+width: 50%;
+}
+
+form h1 {
+padding-left: 26px;
+}
+}
 
 @media screen and (max-width: 850px) {
 #mobile-menu{
@@ -79,7 +96,7 @@ align-items: center;
 width: 100%;
 top: 60px;
 right: 0px;
-background: #7a57fa;
+background: #8482ff;
 height: calc(100vh - 60px);
 z-index: 1000;
 pointer-events: none;
@@ -90,20 +107,16 @@ pointer-events: none;
 display: flex;
 pointer-events: all;
 }
-
-
-.imagem{
-display: none;
-}
-
-img{
-display: none;
+#login-btn{
+width: 100%;
+border-radius: 0;
+text-align: center;
 }
 
 .formulario{
 border-radius: 20px;
 width: 55%;
-height: 400px;
+height: 430px;
 }
 .caixa-texto input {
 width: 85%;
